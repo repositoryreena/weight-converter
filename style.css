@@ -1,0 +1,35 @@
+body, html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(to bottom right, yellow 0%, #e0f7fa 50%, yellow 100%);
+color: rgb(20, 120, 160);
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+padding: 20px;
+background-color: rgb(222, 233, 236);
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+input{
+    color: green;
+}
